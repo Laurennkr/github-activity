@@ -68,8 +68,7 @@ public class RoomController {
 
     @PostMapping("/{code}/round/close")
     public CloseRoundResponse closeRound(@PathVariable String code, @RequestParam UUID hostPlayerId) {
-        UUID temporal = hostPlayerId;
-        System.out.println("Feature: cerrando ronda con " + temporal);
+        System.out.println("TEST CAMBIO NUEVO");
         return roomService.closeRound(code, hostPlayerId);
     }
 
