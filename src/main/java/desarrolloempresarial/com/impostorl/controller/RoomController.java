@@ -70,4 +70,10 @@ public class RoomController {
     public CloseRoundResponse closeRound(@PathVariable String code, @RequestParam UUID hostPlayerId) {
         return roomService.closeRound(code, hostPlayerId); //Cerrar la ronda
     }
+
+    //agregadoo por feature
+    @GetMapping("/feature-test")
+    public String featureTest() {
+        return "Endpoint desde feature";
+    }
 }
