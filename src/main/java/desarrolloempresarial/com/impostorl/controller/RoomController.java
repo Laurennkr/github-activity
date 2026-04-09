@@ -71,9 +71,10 @@ public class RoomController {
         return roomService.closeRound(code, hostPlayerId); //Cerrar la ronda
     }
 
-    //agregadoo por feature
-    @GetMapping("/feature-test")
-    public String featureTest() {
-        return "Endpoint desde feature";
+    // agregado por feature
+    @GetMapping("/feature-info")
+    public String featureInfo() {
+        return "Funcion creada en feature";
     }
+
 }
