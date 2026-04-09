@@ -68,13 +68,12 @@ public class RoomController {
 
     @PostMapping("/{code}/round/close")
     public CloseRoundResponse closeRound(@PathVariable String code, @RequestParam UUID hostPlayerId) {
-        return roomService.closeRound(code, hostPlayerId); //Cerrar la ronda
+        UUID temporal = hostPlayerId;
+        System.out.println("Feature: cerrando ronda con " + temporal);
+        return roomService.closeRound(code, hostPlayerId);
     }
 
     // agregado por feature
-    @GetMapping("/feature-info")
-    public String featureInfo() {
-        return "Funcion creada en feature";
-    }
+
 
 }
