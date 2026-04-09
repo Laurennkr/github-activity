@@ -1,0 +1,46 @@
+{
+  "MITOLOGIA": [
+    "olimpo",
+    "valquiria",
+    "medusa",
+    "zeus",
+    "anubis",
+    "hercules"
+  ],
+  "VIDEOJUEGOS": [
+    "XP",
+    "speedrun",
+    "joystick",
+    "pvp",
+    "multiplayer"
+  ],
+  "ESPACIO": [
+    "estrella",
+    "saturno",
+    "marte",
+    "asteroide",
+    "constelación"
+  ],
+  "INSTRUMENTOS": [
+    "guitarra",
+    "trompeta",
+    "violin",
+    "flauta",
+    "piano"
+  ],
+  "CLIMA": [
+    "inundacion",
+    "granizo",
+    "bajo 0",
+    "brisa",
+    "niebla"
+  ],
+  "DEPORTES": [
+    "futbol",
+    "boxeo",
+    "esgrima",
+    "natacion",
+    "patinaje"
+  ]
+}
+
