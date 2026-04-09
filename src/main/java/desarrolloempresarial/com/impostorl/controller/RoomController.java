@@ -68,6 +68,7 @@ public class RoomController {
 
     @PostMapping("/{code}/round/close")
     public CloseRoundResponse closeRound(@PathVariable String code, @RequestParam UUID hostPlayerId) {
-        return roomService.closeRound(code, hostPlayerId); //Cerrar la ronda
+        System.out.println("CAMBIO HECHO SOLO EN TEST");
+        return roomService.closeRound(code, hostPlayerId);
     }
 }
